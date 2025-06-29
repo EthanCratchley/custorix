@@ -1,2 +1,2 @@
-# custorix
-Google - The Gemma 3n Impact Challenge
+# Custorix - Private AI Security. No Cloud. No Compromise
+
