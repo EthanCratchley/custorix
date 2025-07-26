@@ -1,0 +1,6 @@
+.env
+.claude
+CLAUDE.md
+.ropeproject
+env/
+yolo11n.pt

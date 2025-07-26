@@ -22,9 +22,9 @@ Custorix is fully offline, no cloud needed, and utilizes visions models and Gemm
 - Fully offline edge deployment
 - DIY camera hardware
 
-## Pipeline 
+## Pipeline
 
-![pipeline](pipeline.png)
+![pipeline](assets/pipeline.png)
 
 ## Tools + Hardware
 **DIY Security Camera Hardware:**
@@ -39,15 +39,15 @@ Custorix is fully offline, no cloud needed, and utilizes visions models and Gemm
 - OS: Raspberry Pi OS
 - Camera API: OpenCV
 - Audio API: sounddevice, pyaudio
-- Vision Model Runtime: Ollama/Unsolth?, ONNX Runtime, TensorRT, TFLite
-- Vision Model: YOLOv8n (TFLite/ONNX) or MobileNet SSDLite
+- Vision Model Runtime: Ollama/Unsloth?, ONNX Runtime, TensorRT, TFLite
+- Vision Model: YOLOv11n (TFLite/ONNX) or MobileNet SSDLite
 - Audio Trigger: dB threshold via mic input
 - LLM: Gemma 3n via Ollama (desktop) or MLC.ai (embedded)
 - UI: Flask/Streamlit (Web) or Flutter (Mobile)
 - Data Storage: SQLite, optional CSV/PDF export
 
 ## Sources
-- Vision Model: YOLOv8n pretrained on COCO
+- Vision Model: YOLOv11n pretrained on COCO
 - Audio Trigger: No model needed — dB threshold
 - Gemma LLM: Ollama pull Gemma-2B or 4B → fine-tuning optional
 
